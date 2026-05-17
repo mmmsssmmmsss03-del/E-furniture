@@ -1,21 +1,12 @@
-'use client'
-
 import React from 'react'
 import { Button } from '../ui/button'
 import { VscCode } from 'react-icons/vsc'
 import Link from 'next/link'
 import { links } from '@/utils/links'
-import { toast } from "sonner"
 
 function Logo() {
-
-function test() {
-  toast("Event has been created.")
-}
-
-
   return (
-    <Button onClick={test} size={'icon'}
+    <Button size={'icon'}
     asChild>
       <Link href={links.HOME.href}>
         <VscCode/>
