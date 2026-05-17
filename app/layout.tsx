@@ -4,6 +4,7 @@ import { Geist } from "next/font/google";
 import Navbar from "@/components/navbar/Navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import Container from "@/components/global/Container";
+import { Toaster } from "@/components/ui/sonner"
 
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
@@ -31,7 +32,7 @@ export default function RootLayout({
           <Container className="pt-24">
           {children}            
           </Container>
-
+            <Toaster/>
         </ThemeProvider>
         </body>
     </html>
