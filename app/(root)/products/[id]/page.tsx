@@ -42,7 +42,7 @@ async function ProductId({params}:{params:Params}) {
             <FavoriteToggleButton ProductId={product.id}/>
           </div>
           <ProductRating productId={product.id} />
-          <h4 className='text-md p-2 mt-3 rounded-lg bg-muted inline-block'>{DollarAmount}</h4>
+          <h4 className='text-md p-2 mt-4 rounded-lg bg-muted inline-block'>{DollarAmount}</h4>
           <p className='mt-6 text-md leading-8'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum placeat repudiandae voluptatem. Necessitatibus obcaecati iste nemo laboriosam molestias voluptatibus tempora, eveniet tempore beatae consequatur aliquam, placeat temporibus! Perferendis, earum doloremque?</p>
           <AddtoCart productId={product.id}/>
         </div>
